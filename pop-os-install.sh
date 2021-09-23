@@ -27,7 +27,7 @@ sudo apt install seahorse-nautilus -y
 sudo apt install piper -y
 sudo apt install gnome-tweaks -y
 sudo apt install gir1.2-gmenu-3.0 -y # dependancy of arc menu extension
-sudo hostnamectl set-hostname john-pop
+sudo hostnamectl set-hostname john-pc-b460m
 timedatectl set-local-rtc 1 --adjust-system-clock # Fix system clock to be compatible with dual booting windows
 sudo ufw allow from 192.168.0.0/24 to 224.0.0.251 proto igmp # mDNS
 sudo ufw allow from 192.168.0.1 to 224.0.0.1 proto igmp # mDNS
