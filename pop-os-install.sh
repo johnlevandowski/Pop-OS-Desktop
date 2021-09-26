@@ -17,6 +17,7 @@ sudo apt upgrade -y --allow-downgrades
 
 # Additional Applications
 # sudo apt install timeshift -y
+sudo apt install anacron -y
 sudo apt install ubuntu-restricted-extras -y
 sudo apt install nautilus-dropbox -y
 sudo apt install gnucash -y
